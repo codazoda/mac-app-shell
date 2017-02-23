@@ -4,12 +4,14 @@ This is a minimalist shell for a MacOS Application bundle (just a directory) tha
 
 ## File Structure
 
+```
 Setup.app      The App bundle (just a directory)
   Contents     The first required folder
   	MacOS      The second required folder
       setup    The initial bash script or other executable (filename must match the app name)
       main.sh  Another bash script that setup runs in a terminal window
   	Icon?	   The icon (see setup instructions below)
+```
 
 ## Setting an Icon
 
