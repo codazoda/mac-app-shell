@@ -13,6 +13,10 @@ Console.app    The App bundle (just a directory with the .app extension)
   	Icon?	   The icon (see setup instructions below)
 ```
 
+## Executable
+
+Make sure that all the bash scripts are marked as executable `chmod +x filename`.
+
 ## Setting an Icon
 
 - Open the icon you want to use in Preview and press Command-C to copy it.
