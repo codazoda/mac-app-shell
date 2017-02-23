@@ -1,0 +1,11 @@
+#! /bin/bash
+
+# Get this scripts full directory name
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Opens terminal and executes main.sh inside it
+function main {
+	open -b com.apple.terminal $DIR/main.sh 
+}
+
+main
